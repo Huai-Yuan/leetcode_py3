@@ -1,5 +1,6 @@
 class Solution:
     def maxSubArray(self, nums: list[int]) -> int:
+        # simple code
         temp = 0
         _max = float("-inf")
         for num in nums:
@@ -11,3 +12,6 @@ class Solution:
             _max = max(_max, temp)
                 
         return _max
+
+        # divide and conquer
+        
