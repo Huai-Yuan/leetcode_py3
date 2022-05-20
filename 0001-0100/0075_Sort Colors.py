@@ -3,6 +3,7 @@ class Solution:
         """
         Do not return anything, modify nums in-place instead.
         """
+        # simple code
         c_count = [0, 0, 0]
         for num in nums:
             if num == 0:
@@ -20,3 +21,6 @@ class Solution:
                 nums[count] = i
                 c_count[i] -= 1
                 count += 1
+
+        # other algorithms
+        
